@@ -1,0 +1,27 @@
+{
+  "name": "Linda's Snack Paradise",
+  "version": "1.0.0",
+  "description": "Proyek Food and Beverage",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "migrate": "prisma migrate dev",
+    "generate": "prisma generate"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "prisma": "^3.11.1",
+    "@prisma/client": "^3.11.1",
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "keywords": ["fnb", "food-and-beverage", "express"],
+  "author": "Group 21 Surabaya",
+  "license": "ISC"
+}
